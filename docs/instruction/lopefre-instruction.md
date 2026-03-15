@@ -1,6 +1,6 @@
 ---
-portfolio
-manual
+- portfolio
+- manual
 ---
 
 # Как отправить отложенное сообщение в Telegram

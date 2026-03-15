@@ -1,6 +1,6 @@
 ---
-portfolio
-readme
+- portfolio
+- readme
 ---
 
 # Autodocs
