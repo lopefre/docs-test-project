@@ -45,7 +45,7 @@ theme: # Тема сайта, информация о ее параметрах
     - Главная страница: index.md
     - Инструкции: 
       - index.md
-      - Учебная инструкция к Telegram: lopefre-instruction.md
+      - 'Учебная инструкция к Telegram': lopefre-instruction.md
     - Readme: README.md
 
   markdown_extensions: # Расширения markdown
