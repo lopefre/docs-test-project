@@ -31,7 +31,7 @@ theme: # Тема сайта, информация о ее параметрах
     - navigation.sections # Добавление разделов верхнего уровня в боковом меню, отключение спойлеров в боковом меню
     - navigation.path # Хлебные крошки
     - navigation.indexes # Позволяет создавать корневые страницы разделов меню. Корневая страница должна лежать в папке раздела и называться index.md. Пример использования корневых страниц приведен ниже в настройках nav
-    - navigation.tabs # Верхнее меню
+    #- navigation.tabs # Верхнее меню
     - navigation.tabs.sticky # Фиксация верхнего меню
     - navigation.expand # Разворачивает спойлеры в левом меню по умолчанию
     - toc.integrate # Фиксирует оглавление страницы в левом меню
@@ -43,17 +43,10 @@ theme: # Тема сайта, информация о ее параметрах
 
   nav: # Структура сайта
     - Главная страница: index.md
-    - 'Markdown: базовый синтаксис': markdown.md
-    - Тех.минимум по git: git-for-tech-writer.md
-    - Стайлгайд для пошаговых инструкций: styleguide.md
-    - Домашний проект:
-      - pet-project/index.md # корневая страница подраздела; работает при включенной функции navigation.indexes
-      - Настройка MkDocs: pet-project/mkdocs-setup.md # вложенные страницы отбиваются отступами
-    - Вебинары: meetings.md
-    - Домашние задания:
-      - Домашнее задание №0: homeworks/homework-0.md
-      - Домашнее задание N1: homeworks/homework-1.md
-      - Домашнее задание N2: homeworks/homework-2.md
+    - Инструкции: 
+      - index.md
+      - Учебная инструкция к Telegram: lopefre-instruction.md
+    - Readme: README.md
 
   markdown_extensions: # Расширения markdown
     - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
@@ -75,10 +68,8 @@ theme: # Тема сайта, информация о ее параметрах
     - search
     - tags:
         tags_allowed:
-        - task 
+        - portfolio
+        - readme
         - help 
         - manual
-        - git
-        - pet  
-        - markdown
     - glightbox

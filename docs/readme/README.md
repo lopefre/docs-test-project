@@ -1,3 +1,8 @@
+---
+portfolio
+readme
+---
+
 # Autodocs
 
 Autodocs is a Python-based tool that **automates documentation generation** for licensing game products.  
