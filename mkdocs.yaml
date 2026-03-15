@@ -43,6 +43,7 @@ theme: # Тема сайта, информация о ее параметрах
 
   nav: # Структура сайта
     - Главная страница: index.md
+    - Теги: tags.md
     - Инструкции: 
       - index.md
       - Учебная инструкция к Telegram: lopefre-instruction.md
