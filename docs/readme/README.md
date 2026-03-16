@@ -1,6 +1,7 @@
 ---
-- portfolio
-- readme
+tags:
+  - portfolio
+  - readme
 ---
 
 # Autodocs
