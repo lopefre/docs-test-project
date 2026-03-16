@@ -69,8 +69,7 @@ end alt
 
 ```
 
-??? note "Код диаграммы"
-```plantuml
+```puml
 @startuml
 actor Пользователь
 participant Приложение
@@ -95,6 +94,4 @@ alt Отмена редактирования
 end alt
 
 @enduml
-```
-
 ```
