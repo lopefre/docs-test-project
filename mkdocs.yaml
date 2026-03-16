@@ -27,6 +27,7 @@ theme: # Тема сайта, информация о ее параметрах
         name: Позвать солнышко
       primary: deep purple
       accent: blue
+
   features: # настройки функциональностей темы
     - navigation.sections # Добавление разделов верхнего уровня в боковом меню, отключение спойлеров в боковом меню
     - navigation.path # Хлебные крошки
@@ -41,36 +42,38 @@ theme: # Тема сайта, информация о ее параметрах
     - search.highlight # Подсветка результатов поиска в тексте страницы
     - content.code.copy # Кнопка копирования в блоке кода
 
-  nav: # Структура сайта
-    - Главная страница: index.md
-    - Теги: tags.md
-    - Инструкции: 
-      - index.md
-      - Учебная инструкция к Telegram: lopefre-instruction.md
-    - Readme: README.md
+nav: # Структура сайта
+  - Главная страница: index.md
+  - Теги: tags.md
+  - Инструкции: 
+    - Инструкции: instruction/index.md
+    - Учебная инструкция к Telegram: instruction/lopefre-instruction.md
+  - Readme: 
+    - Readme: readme/index.md
+    - Autodocs: readme/Autodocs.md
 
-  markdown_extensions: # Расширения markdown
-    - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
-    - footnotes # Поддержка встроенных сносок на страницах
-    - attr_list # Использование html-атрибутов и CSS в элементах markdown
-    - md_in_html # Поддержка markdown внутри html
-    - def_list # Поддержка списков определений
-    - pymdownx.tabbed: # Использование вкладок (табов)
-        alternate_style: true
-    - pymdownx.details # Использование спойлеров (катов)
-    - pymdownx.highlight: # Подсветка синтаксиса в блоках кода
-        anchor_linenums: true
-    - pymdownx.superfences # Поддержка вложенных блоков кода
-    - pymdownx.emoji: # Иконки и эмодзи
-        emoji_index: !!python/name:material.extensions.emoji.twemoji
-        emoji_generator: !!python/name:material.extensions.emoji.to_svg
+markdown_extensions: # Расширения markdown
+  - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
+  - footnotes # Поддержка встроенных сносок на страницах
+  - attr_list # Использование html-атрибутов и CSS в элементах markdown
+  - md_in_html # Поддержка markdown внутри html
+  - def_list # Поддержка списков определений
+  - pymdownx.tabbed: # Использование вкладок (табов)
+      alternate_style: true
+  - pymdownx.details # Использование спойлеров (катов)
+  - pymdownx.highlight: # Подсветка синтаксиса в блоках кода
+      anchor_linenums: true
+  - pymdownx.superfences # Поддержка вложенных блоков кода
+  - pymdownx.emoji: # Иконки и эмодзи
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-  plugins:
-    - search
-    - tags:
-        tags_allowed:
-        - portfolio
-        - readme
-        - help 
-        - manual
-    - glightbox
+plugins:
+  - search
+  - tags:
+      tags_allowed:
+      - portfolio
+      - readme
+      - help 
+      - manual
+  - glightbox
