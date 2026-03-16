@@ -17,6 +17,8 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: |
-          pip install mkdocs-material mkdocs-glightbox mkdocs-puml mkdocs-swagger-ui-tag
-          mkdocs gh-deploy --force
+      - run: pip install mkdocs-material
+      - run: pip install mkdocs-puml
+      - run: pip install mkdocs-glightbox
+      - run: mkdocs mkdocs-swagger-ui-tag
+      - run: mkdocs gh-deploy --force
