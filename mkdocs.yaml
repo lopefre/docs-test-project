@@ -45,6 +45,7 @@ theme: # Тема сайта, информация о ее параметрах
 nav: # Структура сайта
   - Главная страница: index.md
   - Теги: tags.md
+  - API-дока: api/api-doc.md
   - Инструкции: 
     - Инструкции: instruction/index.md
     - Учебная инструкция к Telegram: instruction/lopefre-instruction.md
@@ -78,3 +79,6 @@ plugins:
       - help 
       - manual
   - glightbox
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
+  - swagger-ui-tag
