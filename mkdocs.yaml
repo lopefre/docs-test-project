@@ -79,6 +79,6 @@ plugins:
       - help 
       - manual
   - glightbox
-  - plantuml:
+  - puml:  # Попробуй заменить plantuml на puml
       puml_url: https://www.plantuml.com/plantuml/
   - swagger-ui-tag
