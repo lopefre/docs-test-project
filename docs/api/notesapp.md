@@ -1,10 +1,13 @@
 ---
 tags:
   - portfolio
-  - manual
+  - scenario
+  - api
 ---
 
 # Пользовательский сценарий «Редактирование заметки»
+
+[Спецификация приложения Нотсапп](https://novillero.github.io/dac-adv-2/pet-project/notesapp/specification/)
 
 ### Действующие лица:
 

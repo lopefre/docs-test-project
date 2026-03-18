@@ -45,16 +45,20 @@ theme: # Тема сайта, информация о ее параметрах
 nav: # Структура сайта
   - Главная страница: index.md
   - API: 
-    - api/index.md
-    - Swagger API: api/swagger-api.md
-    - Redoc API: api/redoc-api.md
+    - Обзор API: api/index.md
+    - Вся документация API:
+      - Swagger API: api/swagger-api.md
+      - Redoc API: api/redoc-api.md
+      - Пользовательский сценарий - редактирование заметки в Нотсапп: api/notesapp.md
   - Инструкции: 
-    - instruction/index.md
-    - Учебная инструкция к Telegram: instruction/lopefre-instruction.md
-    - Учебная инструкция к Нотсапп: instruction/notesapp.md
+    - Инструкции: instruction/index.md
+    - Все инструкции:
+      - Учебная инструкция к Telegram: instruction/lopefre-instruction.md
+  
   - README: 
-    - readme/index.md
-    - Autodocs: readme/Autodocs.md
+    - README: readme/index.md
+    - Все README:
+      - Autodocs: readme/Autodocs.md
 
 markdown_extensions: # Расширения markdown
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
@@ -81,6 +85,7 @@ plugins:
       - help 
       - manual
       - api
+      - scenario
   - glightbox
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
