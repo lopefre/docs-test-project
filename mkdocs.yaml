@@ -43,15 +43,12 @@ theme: # Тема сайта, информация о ее параметрах
     - content.code.copy # Кнопка копирования в блоке кода
 
 nav: # Структура сайта
-  - Главная страница: index.md
   - Теги: tags.md
   - API-дока: api/api-doc.md
   - Инструкции: 
-    - Инструкции: instruction/index.md
     - Учебная инструкция к Telegram: instruction/lopefre-instruction.md
     - Учебная инструкция к Нотсапп: instruction/notesapp.md
   - Readme: 
-    - Readme: readme/index.md
     - Autodocs: readme/Autodocs.md
 
 markdown_extensions: # Расширения markdown
