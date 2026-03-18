@@ -21,6 +21,6 @@ jobs:
           pip install mkdocs-material \
                       mkdocs-glightbox \
                       mkdocs-puml \
-                      mkdocs-swagger-ui-tag
+                      mkdocs-swagger-ui-tag \
                       mkdocs-redoc-tag
           mkdocs gh-deploy --force
