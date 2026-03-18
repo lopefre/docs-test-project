@@ -43,8 +43,11 @@ theme: # Тема сайта, информация о ее параметрах
     - content.code.copy # Кнопка копирования в блоке кода
 
 nav: # Структура сайта
+  - Главная страница: index.md
   - Теги: tags.md
-  - API-дока: api/api-doc.md
+  - API: 
+    - Swagger API: api/swagger-api.md
+    - Redoc API: api/redoc-api.md
   - Инструкции: 
     - Учебная инструкция к Telegram: instruction/lopefre-instruction.md
     - Учебная инструкция к Нотсапп: instruction/notesapp.md
