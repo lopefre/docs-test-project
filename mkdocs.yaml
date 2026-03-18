@@ -44,14 +44,16 @@ theme: # Тема сайта, информация о ее параметрах
 
 nav: # Структура сайта
   - Главная страница: index.md
-  - Теги: tags.md
   - API: 
+    - api/index.md
     - Swagger API: api/swagger-api.md
     - Redoc API: api/redoc-api.md
   - Инструкции: 
+    - instruction/index.md
     - Учебная инструкция к Telegram: instruction/lopefre-instruction.md
     - Учебная инструкция к Нотсапп: instruction/notesapp.md
-  - Readme: 
+  - README: 
+    - readme/index.md
     - Autodocs: readme/Autodocs.md
 
 markdown_extensions: # Расширения markdown
@@ -78,6 +80,7 @@ plugins:
       - readme
       - help 
       - manual
+      - api
   - glightbox
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
