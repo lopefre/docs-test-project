@@ -92,5 +92,7 @@ plugins:
   - glightbox
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
+      theme:
+        enabled: false
   - swagger-ui-tag
   - redoc-tag
