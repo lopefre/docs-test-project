@@ -42,6 +42,9 @@ theme: # Тема сайта, информация о ее параметрах
     - search.highlight # Подсветка результатов поиска в тексте страницы
     - content.code.copy # Кнопка копирования в блоке кода
 
+extra_css:
+  - stylesheets/extra.css
+
 nav: # Структура сайта
   - Главная страница: index.md
   - API: 

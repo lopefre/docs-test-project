@@ -1,0 +1,25 @@
+/* Настройки светлой схемы */
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #0ba424; /*Основной цвет*/
+  --md-accent-fg-color: #1565C0; /*Акцентный цвет*/
+  --md-typeset-a-color: #0e70e0; /*Цвет ссылок*/
+  --md-default-bg-color: #f0f8ff; /*Фоновый цвет*/
+  --md-default-fg-color: #353535; /*Основной цвет текста (абзацы, списки, подзаголовки, nav и toc)*/
+  --md-code-bg-color: #ffffff; /*Цвет фона блока кода*/
+  --md-code-fg-color: #5c5b5b; /*Цвет текста в блоке кода*/
+  --md-default-fg-color--light: #4e4d4d; /*Цвет h1 и заголовков блоков toc и nav*/
+}
+
+/* Настройки тёмной схемы */
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #0B61A4; /*Основной цвет*/
+  --md-accent-fg-color: #1565C0; /*Акцентный цвет*/
+  --md-typeset-a-color: #0e70e0; /*Цвет ссылок*/
+  --md-default-bg-color: #f0f8ff; /*Фоновый цвет*/
+  --md-default-fg-color: #353535; /*Основной цвет текста (абзацы, списки, подзаголовки, nav и toc)*/
+  --md-code-bg-color: #ffffff; /*Цвет фона блока кода*/
+  --md-code-fg-color: #5c5b5b; /*Цвет текста в блоке кода*/
+  --md-default-fg-color--light: #4e4d4d; /*Цвет h1 и заголовков блоков toc и nav*/
+}
