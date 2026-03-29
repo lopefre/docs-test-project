@@ -48,19 +48,14 @@ extra_css:
 nav: # Структура сайта
   - Главная страница: index.md
   - API: 
-    - Обзор API: api/index.md
-    - Вся документация API:
+    - Notesapp:
       - Swagger API: api/swagger-api.md
       - Redoc API: api/redoc-api.md
       - Пользовательский сценарий - редактирование заметки в Нотсапп: api/notesapp.md
   - Инструкции: 
-    - Инструкции: instruction/index.md
-    - Все инструкции:
       - Учебная инструкция к Telegram: instruction/lopefre-instruction.md
   
   - README: 
-    - README: readme/index.md
-    - Все README:
       - Autodocs: readme/Autodocs.md
 
 markdown_extensions: # Расширения markdown
