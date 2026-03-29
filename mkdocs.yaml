@@ -10,9 +10,9 @@ theme: # Тема сайта, информация о ее параметрах
   palette: # Настройки светлой и тёмной тем
     # Настройки светлой темы
     - scheme: default 
-      toggle:
-        icon: material/weather-sunny # Иконка для активации светлой темы
-        name: Выключить солнышко # Всплывающий текст-подсказка
+      #toggle:
+        #icon: material/weather-sunny # Иконка для активации светлой темы
+        #name: Выключить солнышко # Всплывающий текст-подсказка
       primary: blue # Основной цвет
       accent: purple # Акцентный цвет
       # вы можете использовать любой цвет из списка: 
@@ -21,12 +21,12 @@ theme: # Тема сайта, информация о ее параметрах
       # grey; blue grey; black; white
 
     # Настройки тёмной темы
-    - scheme: slate
-      toggle:
-        icon: material/weather-night
-        name: Позвать солнышко
-      primary: deep purple
-      accent: blue
+    #- scheme: slate
+      #toggle:
+        #icon: material/weather-night
+        #name: Позвать солнышко
+      #primary: deep purple
+      #accent: blue
 
   features: # настройки функциональностей темы
     - navigation.sections # Добавление разделов верхнего уровня в боковом меню, отключение спойлеров в боковом меню
@@ -75,6 +75,7 @@ markdown_extensions: # Расширения markdown
   - pymdownx.highlight: # Подсветка синтаксиса в блоках кода
       anchor_linenums: true
   - pymdownx.superfences # Поддержка вложенных блоков кода
+  - pymdownx.snippets
   - pymdownx.emoji: # Иконки и эмодзи
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
